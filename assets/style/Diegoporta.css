@@ -1,0 +1,602 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Moneserrat", sans-serif;
+    color: #222222;
+}
+
+/******************* Menu *****************/
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 70px;
+    padding-right: 25px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    box-shadow: 1px 3px #52ced6;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 0px 28px;
+}
+.menu ul li a:hover {
+    border-bottom: 4px solid #52ced6;
+}
+.menu .menux {
+    text-decoration-line: none;
+    color: #222222;
+    font-weight: bold;
+}
+.allMenu li a img {
+    width: 35px;
+}
+.gif-D {
+    display: flex;
+
+    width: 100px;
+    padding-top: 70px;
+}
+
+/****************** HOME *****************/
+
+.main {
+    padding-top: 180px;
+}
+
+.diagonals {
+    margin-top: 180px;
+    width: 520px;
+    height: 50px;
+    margin: 0px;
+    transform: rotate(-40deg);
+    position: relative;
+    right: 10px;
+    top: 20px;
+    opacity: 0.3;
+}
+.DL0 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.diagonal_0 {
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #52ced6;
+}
+
+.DL1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.diagonal_1 {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #52ced6;
+}
+.DL2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.diagonal_2 {
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #52ced6;
+    margin-left: 15px;
+}
+
+.diagonal_3 {
+    width: 400px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #52ced6;
+}
+.DL3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.diagonal_4 {
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #52ced6;
+}
+.diagonal_5 {
+    width: 500px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #52ced6;
+    margin-left: 15px;
+}
+.diagonal_6 {
+    width: 320px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #52ced6;
+    margin-left: 15px;
+}
+
+.block2 h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 20px;
+}
+.text__1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222222;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-areas: "container1 container1";
+    padding-left: 10%;
+    padding-inline-start: 0px;
+}
+.profilePhoto img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-top: -130px;
+    margin-left: 250px;
+    position: absolute;
+}
+
+.redContact {
+    display: flex;
+    padding-left: 3px;
+}
+
+.redContact > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: solid;
+    border-color: #52ced6;
+}
+.redContact div img {
+    width: 25px;
+}
+.contactme1 {
+    display: flex;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 30px;
+    border: solid;
+    border-color: #52ced6;
+}
+.sobreEmail img {
+    width: 90px;
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+/******************* About Me *****************/
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.aboutMe {
+    margin-top: 80px;
+}
+.infoAboutMe {
+    margin-top: 80px;
+    width: 800px;
+}
+
+/********************** My Abilities *****************/
+
+.myAbilities {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.icon {
+    width: 25px;
+}
+
+.containerTable {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.containerTable div {
+    border: 3px solid #52ced6;
+    width: 240px;
+    padding: 10px;
+}
+.article1 {
+    padding-top: 50px;
+}
+
+.efect:hover {
+    transform: translateY(-80px);
+    box-shadow: 0 15px 30px #52ced6;
+}
+
+/*******************experience*****************/
+.container4 h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100;
+}
+.experience {
+    padding-top: 100px;
+}
+
+.article2 {
+    padding-top: 150px;
+}
+.containerTable2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+.article2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: -60px;
+}
+.iconosExperience {
+    width: 45px;
+}
+
+/*****************briefcase***************/
+
+.container5 h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.fullCard {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 80px;
+    grid-column: auto auto;
+}
+
+.image {
+    -webkit-perspective: 800;
+    perspective: 800;
+}
+.card {
+    width: 340px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+    -webkit-box-shadow: 0 15px 30px#52ced6;
+    -moz-box-shadow: 0 15px 30px #52ced6;
+    box-shadow: 0 15px 30px #52ced6;
+}
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.back {
+    transform: rotateY(180deg);
+}
+.image:hover .card {
+    transform: rotateY(180deg);
+}
+
+/******************contact*****************/
+
+.container6 h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.containerContact {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-top: 100px;
+}
+.contact1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 150px;
+    height: 140px;
+    background-color: #92eeef3e;
+    border-radius: 50px;
+}
+
+.phone {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+.phone p {
+    font-weight: 400;
+    padding-top: 15px;
+}
+.phone h5 {
+    padding-top: 15px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.iconPhone {
+    width: 70px;
+}
+
+/******************footer***************/
+.allFooter {
+    display: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    margin: 50px;
+}
+.allFooter img {
+    width: 40px;
+}
+.textColor {
+    color: #52ced6;
+}
+.nav-toggle img {
+    /* color: #52ced6;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    ;*/
+    width: 45px;
+    opacity: 0.8;
+    cursor: pointer;
+    display: none;
+}
+.menu .nav-toggle img:hover {
+    transform: rotateY(180deg);
+}
+
+/******************TABLE***************/
+
+@media (max-width: 992px) {
+    body {
+        margin: 0px;
+    }
+    .bigMenu {
+        height: 60px;
+        left: 0;
+    }
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .allMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #92f0f6;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: 1s;
+    }
+    .nav-menu-item {
+        line-height: 60px;
+    }
+    .menux:hover {
+        background: none;
+        color: white;
+    }
+    .nav-toggle img {
+        display: block;
+    }
+    .nav-menu_visible {
+        left: 0;
+    }
+    .menux {
+        line-height: 60px;
+    }
+    .container1 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin-bottom: 350px;
+    }
+
+    .block2 {
+        padding-left: 90px;
+    }
+    .block1 {
+        padding-top: 60px;
+    }
+    .profilePhoto img {
+        margin-left: 130px;
+    }
+    .diagonals {
+        right: 30%;
+    }
+    .main {
+        padding-top: 40px;
+    }
+    .containerTable {
+        overflow-x: scroll;
+        justify-content: flex-start;
+        margin: 0 60px;
+    }
+    .containerTable::-webkit-scrollbar {
+        background: #60cad235;
+        height: 12px;
+    }
+    .containerTable::-webkit-scrollbar-thumb {
+        background: #52ced6;
+        border-radius: 30px;
+    }
+
+    .efect {
+        min-width: 270px;
+        margin-bottom: 20px;
+    }
+    .containerTable2 {
+        display: block;
+    }
+    .fullCard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .infoAboutMe {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .containerContact {
+        gap: 20px;
+    }
+    .fullCard {
+        grid-gap: 60px;
+    }
+
+    .gif-D {
+        padding-top: 0px;
+        width: 45px;
+        margin-right: 650px;
+    }
+}
+
+/******************smartPhone***************/
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0px;
+    }
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .nav-toggle img {
+        display: block;
+    }
+    .nav__menu_visible {
+        left: 0px;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 70px;
+        padding-right: 25px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        background-color: white;
+        width: 100%;
+        box-shadow: 1px 3px #52ced6;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 0px 28px;
+    }
+    .menu ul li a:hover {
+        border-bottom: 4px solid #52ced6;
+    }
+    .menu .menux {
+        text-decoration-line: none;
+        color: #222222;
+        font-weight: bold;
+    }
+    .allMenu li a img {
+        width: 35px;
+    }
+    .gif-D {
+        margin-right: 200px;
+    }
+    .block1 {
+        height: 200px;
+        width: 470px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        padding-right: 60px;
+    }
+    .nav-toggle {
+        padding-left: 300px;
+        position: absolute;
+    }
+
+    .containerContact {
+        display: block;
+    }
+    .contactGmail {
+        padding-top: 90px;
+    }
+}
