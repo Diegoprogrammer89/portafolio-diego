@@ -241,10 +241,13 @@
 .article1 {
     padding-top: 30px;
 }
-
+.efect{
+    transition: ease-out 0.8s;
+}
 .efect:hover {
     transform: translateY(-50px);
     box-shadow: 0 15px 30px #52ced6;
+    transition: ease-out 0.8s;
 }
 
 .containerTable div::-webkit-scrollbar{
