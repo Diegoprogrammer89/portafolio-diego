@@ -96,6 +96,7 @@
     
     width: 75%;
     position: absolute;
+    padding-top: 125px;
   
     
 }
@@ -533,7 +534,7 @@
     width: 100%;
 }
 .block2{
-   padding-top: 150px;
+   padding-top: 200px;
    
 } 
 .iconosExperience {
@@ -581,6 +582,13 @@
     flex-wrap: wrap;
     justify-content: center;
     
+}
+.blockA Article .profilePhoto{
+    margin-top: 190px;
+}
+.profilePhoto img{ 
+    width: 120%;
+    margin-bottom: 190px;
 }
 
 
