@@ -60,87 +60,6 @@
     width: 100%;
 }
 
-.diagonals {
-    margin-top: 180px;
-    width: 520px;
-    height: 50px;
-    margin: 0px;
-    transform: rotate(-40deg);
-    position: relative;
-    right: 10px;
-    top: 20px;
-    opacity: 0.3;
-}
-.DL0 {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.diagonal_0 {
-    width: 100px;
-    height: 45px;
-    border-radius: 30px;
-    background-color: #52ced6;
-}
-
-.DL1 {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-.diagonal_1 {
-    width: 200px;
-    height: 45px;
-    border-radius: 30px;
-    background-color: #52ced6;
-}
-.DL2 {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-.diagonal_2 {
-    width: 80px;
-    height: 45px;
-    border-radius: 30px;
-    background-color: #52ced6;
-    margin-left: 15px;
-}
-
-.diagonal_3 {
-    width: 400px;
-    height: 45px;
-    border-radius: 30px;
-    background-color: #52ced6;
-}
-.DL3 {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.diagonal_4 {
-    width: 100px;
-    height: 45px;
-    border-radius: 30px;
-    background-color: #52ced6;
-}
-.diagonal_5 {
-    width: 500px;
-    height: 45px;
-    border-radius: 30px;
-    background-color: #52ced6;
-    margin-left: 15px;
-}
-.diagonal_6 {
-    width: 320px;
-    height: 45px;
-    border-radius: 30px;
-    background-color: #52ced6;
-    margin-left: 15px;
-}
-
 .block2 h1 {
     font-size: 70px;
     font-weight: 700;
@@ -174,8 +93,10 @@
    
 }
 .profilePhoto img{
+    
+    width: 75%;
     position: absolute;
-    width: 300px;
+  
     
 }
 
@@ -594,6 +515,9 @@
 .block1{
     width: 100%;
 }
+.blockA{
+    padding-right: 30%;
+}
 .burguer{
     display: flex;
     justify-content: flex-end;
@@ -609,7 +533,7 @@
     width: 100%;
 }
 .block2{
-   padding-top: 300px;
+   padding-top: 150px;
    
 } 
 .iconosExperience {
@@ -623,8 +547,6 @@
 .containerTable2{
     display: flex;
     flex-direction: column;
-}
-.fullCard{
 }
 .containerContact{
     display: flex;
@@ -662,59 +584,7 @@
 }
 
 
-
-.diagonal_0 {
-    width: 50px;
-    height: 25px;
-    border-radius: 30px;
-    background-color: #52ced6;
-}
-
-
-.diagonal_1 {
-    width: 100px;
-    height: 25px;
-    border-radius: 30px;
-    background-color: #52ced6;
-}
-
-
-.diagonal_2 {
-    width: 40px;
-    height: 25px;
-    border-radius: 30px;
-    margin-left: 15px;
-}
-
-.diagonal_3 {
-    width: 200px;
-    height: 25px;
-    border-radius: 30px;
-}
-
-.diagonal_4 {
-    width: 50px;
-    height: 25px;
-    border-radius: 30px;
-}
-.diagonal_5 {
-    width: 250px;
-    height: 25px;
-    border-radius: 30px;
-    margin-left: 15px;
-}
-.diagonal_6 {
-    width: 160px;
-    height: 25px;
-    border-radius: 30px;
-    margin-left: 15px;
-}
-.profilePhoto img{
-    
-    width: 150px;
-    
-}
 .block2 .nameProfile{
-    font-size: 50px;
+    font-size: 55px;
 }
 }
