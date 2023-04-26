@@ -1,4 +1,4 @@
-* { 
+/** { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,9 +8,9 @@
     font-family: "Moneserrat", sans-serif;
     color: #222222;
 }
-
+*/
 /******************* Menu *****************/
-
+/*
 .menu {
     display: flex;
     justify-content: center;
@@ -49,12 +49,9 @@
    left: 80px;
   
 }
-.burguer{
-    display: none;
-}
-
+*/
 /****************** HOME *****************/
-
+/*
 .main {
     padding-top: 130px;
     width: 100%;
@@ -140,7 +137,9 @@
     background-color: #52ced6;
     margin-left: 15px;
 }
-
+.block2 {
+ padding-bottom: 50px;
+}
 .block2 h1 {
     font-size: 70px;
     font-weight: 700;
@@ -156,27 +155,19 @@
 }
 .container1 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    flex-wrap: wrap;
-    justify-content: space-around;
-  
+    grid-template-columns: 55% 45%;
+    grid-template-areas: "container1 container1";
+    padding-left: 10%;
+    padding-inline-start: 0px;
 }
-.block2{
-    padding-left: 60px;
-}
-.blockA Article .profilePhoto{
+.profilePhoto img {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 130px;
-    margin-left: 150px;
-    
-   
-}
-.profilePhoto img{
-    position: absolute;
+    justify-content: center;
     width: 300px;
-    
+    margin-top: -90px;
+    margin-left: 260px;
+    position: absolute;
 }
 
 .redContact {
@@ -217,10 +208,10 @@
     padding-right: 40px;
     padding-top: 5px;
 }
-
+*/
 
 /********************** My Abilities *****************/
-
+/*
 .myAbilities {
     margin-top: 80px;
     text-align: center;
@@ -265,9 +256,9 @@
     width: 1px;
 }
 
+*/
 
-
-/*******************experience*****************/
+/*******************experience*****************//*
 .container4 h2 {
     display: flex;
     justify-content: center;
@@ -312,9 +303,6 @@
 .article2 div {
     padding: 10px 0px ;
     padding-bottom: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .article2A div {
     padding: 40px 0px ;
@@ -344,10 +332,9 @@
 }
 
 
-
-
+*/
 /*****************briefcase***************/
-
+/*
 .container5 h2 {
     display: flex;
     justify-content: center;
@@ -378,11 +365,11 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-
+*/
     /*-webkit-box-shadow: 0 15px 30px#52ced6;
     -moz-box-shadow: 0 15px 30px #52ced6;
     box-shadow: 0 15px 30px #52ced6;*/
-}
+/*}
 .card::before{
     content: "";
     position: absolute;
@@ -405,11 +392,11 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-
+*/
     /*-webkit-box-shadow: 0 15px 30px#52ced6;
     -moz-box-shadow: 0 15px 30px #52ced6;
     box-shadow: 0 15px 30px #52ced6;*/
-}
+/*}
 .cardA::before{
     content: "";
     position: absolute;
@@ -453,7 +440,7 @@
 .image:hover .card {
     transform: rotateY(180deg);
 }*/
-.front{
+/*.front{
     width: 385px;
     height: 235px;
     border-radius: 10px;
@@ -464,9 +451,9 @@
     height: 235px;
     border-radius: 10px;
     z-index: 1;
-}
+}*/
 /******************contact*****************/
-
+/*
 .container6 h2 {
     display: flex;
     justify-content: center;
@@ -508,8 +495,8 @@
 .iconPhone {
     width: 70px;
 }
-
-/******************footer***************/
+*/
+/******************footer***************//*
 .allFooter {
     display: center;
     justify-content: center;
@@ -522,7 +509,7 @@
 }
 .textColor {
     color: #52ced6;
-}
+}*//*
 .nav-toggle img {
     /* color: #52ced6;
     background: none;
@@ -530,7 +517,7 @@
     font-size: 30px;
     padding: 0 20px;
     line-height: 60px;
-    ;*/
+    ;*//*
     width: 45px;
     opacity: 0.8;
     cursor: pointer;
@@ -539,182 +526,127 @@
 .menu .nav-toggle img:hover {
     transform: rotateY(180deg);
 }
-
+*/
 /******************TABLE***************/
 
-@media (max-width: 992px) {
-.diagonals{
-    right: 90px;
-}
-.iconosExperience {
-    width: 150px;
-}
-.iconosExperience1 {
-    width: 350px;
-}
-.containerTable {
-    overflow-x: scroll;
-    justify-content: flex-start;
-    margin: 0 60px;
-}
-.containerTable::-webkit-scrollbar {
-    background: #60cad235;
-    height: 12px;
-}
-.containerTable::-webkit-scrollbar-thumb {
-    background: #52ced6;    
-    border-radius: 30px;
-}
+/*@media (max-width: 992px) {
+    body {
+        margin: 0px;
+    }
+    .bigMenu {
+        height: 60px;
+        left: 0;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .allMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #92f0f6;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: 1s;
+    }
+    .nav-menu-item {
+        line-height: 20px;
+    }
+    .menux:hover {
+        background: none;
+        color: white;
+    }
+    .nav-toggle img {
+        display: block;
+    }
+    .nav-menu_visible {
+        left: 0;
+    }
+    .menux {
+        line-height: 60px;
+    }
+    .container1 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin-bottom: 350px;
+    }
 
-.efect {
-    min-width: 270px;
-    margin-bottom: 20px;
-}
-.containerTable2 {
-    display: block;
-}
-.fullCard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-}
+    .block2 {
+        padding-left: 90px;
+    }
+    .block1 {
+        padding-top: 60px;
+    }
+    .profilePhoto img {
+        margin-left: 130px;
+    }
+    .diagonals {
+        right: 30%;
+    }
+    .main {
+        padding-top: 40px;
+    }
+    .containerTable {
+        overflow-x: scroll;
+        justify-content: flex-start;
+        margin: 0 60px;
+    }
+    .containerTable::-webkit-scrollbar {
+        background: #60cad235;
+        height: 12px;
+    }
+    .containerTable::-webkit-scrollbar-thumb {
+        background: #52ced6;    
+        border-radius: 30px;
+    }
 
+    .efect {
+        min-width: 270px;
+        margin-bottom: 20px;
+    }
+    .containerTable2 {
+        display: block;
+    }
+    .fullCard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .infoAboutMe {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .containerContact {
+        gap: 20px;
+    }
+    .fullCard {
+        grid-gap: 60px;
+    }
 
+    .gif-D {
+        padding-top: 0px;
+        width: 45px;
+       
+    }
+}
 
 /******************smartPhone***************/
-
+/*
 @media (max-width: 768px) {
-.allMenu{
-    display: none;
-}
-.menu{
-    width: 100%;
-}
-.block1{
-    width: 100%;
-}
-.burguer{
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    height: 50px;
-    right: 20px;
-}
-.container1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.block2{
-   padding-top: 300px;
+
    
-} 
-.iconosExperience {
-    width: 100%;
-    
+  
+   
+ 
 }
-.iconosExperience1 {
-    width: 100%;
-    
-}
-.containerTable2{
-    display: flex;
-    flex-direction: column;
-}
-.fullCard{
-}
-.containerContact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.containerTable {
-    overflow-x: scroll;
-    justify-content: flex-start;
-    margin: 0 60px;
-}
-.containerTable::-webkit-scrollbar {
-    background: #60cad235;
-    height: 12px;
-}
-.containerTable::-webkit-scrollbar-thumb {
-    background: #52ced6;    
-    border-radius: 30px;
-}
-
-.efect {
-    min-width: 270px;
-    margin-bottom: 20px;
-}
-.containerTable2 {
-    display: block;
-}
-.fullCard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-
-
-.diagonal_0 {
-    width: 50px;
-    height: 25px;
-    border-radius: 30px;
-    background-color: #52ced6;
-}
-
-
-.diagonal_1 {
-    width: 100px;
-    height: 25px;
-    border-radius: 30px;
-    background-color: #52ced6;
-}
-
-
-.diagonal_2 {
-    width: 40px;
-    height: 25px;
-    border-radius: 30px;
-    margin-left: 15px;
-}
-
-.diagonal_3 {
-    width: 200px;
-    height: 25px;
-    border-radius: 30px;
-}
-
-.diagonal_4 {
-    width: 50px;
-    height: 25px;
-    border-radius: 30px;
-}
-.diagonal_5 {
-    width: 250px;
-    height: 25px;
-    border-radius: 30px;
-    margin-left: 15px;
-}
-.diagonal_6 {
-    width: 160px;
-    height: 25px;
-    border-radius: 30px;
-    margin-left: 15px;
-}
-.profilePhoto img{
-    
-    width: 150px;
-    
-}
-.block2 .nameProfile{
-    font-size: 50px;
-}
-}
+*/
