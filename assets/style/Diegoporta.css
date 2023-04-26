@@ -53,6 +53,7 @@
 
 .main {
     padding-top: 130px;
+    width: 100%;
 }
 
 .diagonals {
@@ -538,6 +539,7 @@
     .menu {
         display: flex;
         justify-content: flex-end;
+        width: 100%;
     }
     .allMenu {
         display: flex;
@@ -556,7 +558,7 @@
         transition: 1s;
     }
     .nav-menu-item {
-        line-height: 60px;
+        line-height: 20px;
     }
     .menux:hover {
         background: none;
@@ -633,7 +635,7 @@
     .gif-D {
         padding-top: 0px;
         width: 45px;
-        margin-right: 650px;
+       
     }
 }
 
@@ -648,6 +650,7 @@
 
     body {
         margin: 0px;
+        width: 100%;
     }
     .container1 {
         display: flex;
@@ -709,7 +712,7 @@
         padding-right: 60px;
     }
     .nav-toggle {
-        padding-left: 300px;
+        padding-left: 100px;
         position: absolute;
     }
 
