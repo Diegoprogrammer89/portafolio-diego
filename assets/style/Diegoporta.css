@@ -15,17 +15,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top:10px;
+    padding-bottom: 15px;
     height: 70px;
     padding-right: 25px;
     position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
+    z-index: 2;
     background-color: white;
     width: 100%;
     box-shadow: 1px 3px #52ced6;
+   
 }
 .menu ul li {
     display: inline-block;
@@ -43,16 +42,17 @@
     width: 35px;
 }
 .gif-D {
-    display: flex;
-
-    width: 100px;
-    padding-top: 70px;
+   width: 83px;
+   position: fixed;
+   z-index: 3;
+   left: 80px;
+  
 }
 
 /****************** HOME *****************/
 
 .main {
-    padding-top: 180px;
+    padding-top: 130px;
 }
 
 .diagonals {
@@ -135,7 +135,9 @@
     background-color: #52ced6;
     margin-left: 15px;
 }
-
+.block2 {
+ padding-bottom: 50px;
+}
 .block2 h1 {
     font-size: 70px;
     font-weight: 700;
@@ -161,14 +163,15 @@
     align-items: center;
     justify-content: center;
     width: 300px;
-    margin-top: -130px;
-    margin-left: 250px;
+    margin-top: -90px;
+    margin-left: 260px;
     position: absolute;
 }
 
 .redContact {
     display: flex;
-    padding-left: 3px;
+    padding-left: 2px;
+    
 }
 
 .redContact > div {
@@ -176,48 +179,34 @@
     justify-content: center;
     align-items: center;
     margin-right: 40px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     border: solid;
     border-color: #52ced6;
 }
 .redContact div img {
-    width: 25px;
+    width: 35px;
 }
 .contactme1 {
     display: flex;
-    width: 250px;
-    height: 50px;
+    width: 300px;
+    height: 70px;
     justify-content: center;
     align-items: center;
     color: black;
-    margin-top: 30px;
+    margin-top: 20px;
     border: solid;
     border-color: #52ced6;
 }
 .sobreEmail img {
-    width: 90px;
+    width: 110px;
     padding-right: 40px;
     padding-top: 5px;
 }
 
-/******************* About Me *****************/
-
-.container2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.aboutMe {
-    margin-top: 80px;
-}
-.infoAboutMe {
-    margin-top: 80px;
-    width: 800px;
-}
 
 /********************** My Abilities *****************/
 
@@ -230,26 +219,39 @@
     width: 25px;
 }
 
+.textInfo2{
+    padding-bottom: 50px;
+}
+
 .containerTable {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-top: 100px;
+    padding-top: 60px;
+    position: relative;
 }
 
 .containerTable div {
     border: 3px solid #52ced6;
     width: 240px;
+    height: 240px;
     padding: 10px;
+    overflow: auto;
 }
 .article1 {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .efect:hover {
-    transform: translateY(-80px);
+    transform: translateY(-50px);
     box-shadow: 0 15px 30px #52ced6;
 }
+
+.containerTable div::-webkit-scrollbar{
+    width: 1px;
+}
+
+
 
 /*******************experience*****************/
 .container4 h2 {
@@ -263,25 +265,68 @@
 }
 
 .article2 {
-    padding-top: 150px;
+    padding-top: 130px;
 }
 .containerTable2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 80px;
     width: 100%;
 }
 .article2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 70px;
-    margin-top: -60px;
+    
 }
+.article2A {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.article2B {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.article2 div {
+    padding: 10px 0px ;
+    padding-bottom: 120px;
+}
+.article2A div {
+    padding: 40px 0px ;
+}
+.article2B div {
+    padding: 70px 0px ;
+}
+.post1{
+    position: relative;
+   z-index: 1;
+  bottom: 10px;
+}
+.post2{
+   position: relative;
+   z-index: 1;
+  bottom: 30px;
+    
+}
+.post3{
+    position: relative;
+    z-index: 1;
+   bottom: 30px;
+     
+ }
 .iconosExperience {
-    width: 45px;
+    width: 200px;
 }
+
+
 
 /*****************briefcase***************/
 
@@ -305,16 +350,77 @@
     perspective: 800;
 }
 .card {
-    width: 340px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     position: relative;
     transform-style: preserve-3d;
     transition: 0.9s ease;
-    -webkit-box-shadow: 0 15px 30px#52ced6;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    /*-webkit-box-shadow: 0 15px 30px#52ced6;
     -moz-box-shadow: 0 15px 30px #52ced6;
-    box-shadow: 0 15px 30px #52ced6;
+    box-shadow: 0 15px 30px #52ced6;*/
 }
-.front,
+.card::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-image: conic-gradient(#52ced6 20deg,transparent 80deg);
+    animation: rotar 1s linear infinite;
+}
+
+
+
+.cardA {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    /*-webkit-box-shadow: 0 15px 30px#52ced6;
+    -moz-box-shadow: 0 15px 30px #52ced6;
+    box-shadow: 0 15px 30px #52ced6;*/
+}
+.cardA::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-image: conic-gradient(#52ced6 20deg,transparent 80deg);
+    animation: rotarA 1s linear infinite;
+    border-radius: 10px;
+}
+
+@keyframes rotar {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+ @keyframes rotarA {
+    from{
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+
+/*.front,
 .back {
     width: 100%;
     height: 100%;
@@ -328,8 +434,19 @@
 }
 .image:hover .card {
     transform: rotateY(180deg);
+}*/
+.front{
+    width: 385px;
+    height: 235px;
+    border-radius: 10px;
+    z-index: 1;
 }
-
+.back{
+    width: 385px;
+    height: 235px;
+    border-radius: 10px;
+    z-index: 1;
+}
 /******************contact*****************/
 
 .container6 h2 {
