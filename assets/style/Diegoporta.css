@@ -399,7 +399,7 @@
 .containerContact {
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 0px 250px;
     padding-top: 100px;
 }
 .contact1 {
@@ -554,6 +554,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 70px
+    
 }
 
 .containerTable {
