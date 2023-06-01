@@ -333,7 +333,7 @@
     box-shadow: 0 15px 30px #52ced6;*/
 }
 .cardA::before{
-    content: "";
+    content: "";  
     position: absolute;
     width: 600px;
     height: 600px;
@@ -445,22 +445,23 @@
 .textColor {
     color: #52ced6;
 }
-.nav-toggle img {
-    /* color: #52ced6;
+/* .nav-toggle img {
+    color: #52ced6;
     background: none;
     border: none;
     font-size: 30px;
     padding: 0 20px;
     line-height: 60px;
-    ;*/
+    ;
     width: 45px;
     opacity: 0.8;
     cursor: pointer;
     display: none;
-}
+}*/
+/*
 .menu .nav-toggle img:hover {
     transform: rotateY(180deg);
-}
+}*/
 
 /******************TABLE***************/
 
@@ -525,6 +526,10 @@
     position: absolute;
     height: 50px;
     right: 20px;
+    cursor: pointer;
+}
+.burguer img:hover {
+    transform: rotateY(180deg);
 }
 .container1{
     display: flex;

@@ -1,4 +1,4 @@
-const navToggle = document.querySelector(".nav-toggle")
+const navToggle = document.querySelector(".burguer")
 const navMenu = document.querySelector(".allMenu")
 
 navToggle.addEventListener("click", () => {
